@@ -1,0 +1,20 @@
+# node 0x14
+  GET_PIN_WIDGET_CONTROL   = 0x40
+  GET_EAPD_BTLENABLE       = 0x2
+  GET_POWER_STATE          = 0x0
+  GET_AMP_OUT              = L:0x0 R:0x0
+# node 0x21
+  GET_PIN_WIDGET_CONTROL   = 0xc0
+  GET_EAPD_BTLENABLE       = 0x2
+  GET_POWER_STATE          = 0x0
+  GET_AMP_OUT              = L:0x80 R:0x80
+# node 0x12
+  GET_PIN_WIDGET_CONTROL   = 0x20
+  GET_EAPD_BTLENABLE       = 0x0
+  GET_POWER_STATE          = 0x0
+  GET_AMP_OUT              = L:0x0 R:0x0
+# node 0x19
+  GET_PIN_WIDGET_CONTROL   = 0x24
+  GET_EAPD_BTLENABLE       = 0x0
+  GET_POWER_STATE          = 0x0
+  GET_AMP_OUT              = L:0x0 R:0x0

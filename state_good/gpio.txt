@@ -1,0 +1,7 @@
+# GPIO (node 0x01)
+GET_GPIO_DATA            = 0x0
+GET_GPIO_MASK            = 0x0
+GET_GPIO_DIRECTION       = 0x0
+GET_GPIO_WAKE_MASK       = 0x0
+GET_GPIO_UNSOL_RSP       = 0x0
+GET_GPIO_STICKY_MASK     = 0x0

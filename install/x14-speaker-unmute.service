@@ -1,0 +1,10 @@
+[Unit]
+Description=Clear EC speaker amp hard-mute bit (ThinkPad X14 Gen 1 audio fix)
+After=multi-user.target suspend.target hibernate.target hybrid-sleep.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/sbin/x14-speaker-unmute.sh
+
+[Install]
+WantedBy=multi-user.target suspend.target hibernate.target hybrid-sleep.target
